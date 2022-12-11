@@ -1,15 +1,29 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
 .bg-primary {
-    background-color: #495057a3!important;
+  background-color: #495057a3 !important;
 }
 
 .sidebar-collapse .navbar-collapse:before {
-  background: linear-gradient(#495057a3,#000 80%)
-  }
+  background: linear-gradient(#495057a3, #000 80%)
+}
 
-  .card-description, .description, .footer-big p {
-    color: #000000;
-    font-size: 20px;
-  }
+.card-description,
+.description,
+.footer-big p {
+  color: #000000;
+  font-size: 20px;
+}
 
 .try {
   text-align: center;
@@ -28,15 +42,13 @@
   text-align: center;
 }
 
-.page-header-image{
-  max-width: 100%;
-  object-fit:contain;
+.page-header-image {
+  object-fit: contain;
 }
 
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+
+  margin-right: auto;
+  margin-left: auto;
 }
